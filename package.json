@@ -27,6 +27,7 @@
   "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
     "jimp": "^0.6.0",
+    "mammoth": "^1.4.7",
     "pdf-parse": "^1.1.1",
     "pngjs": "^3.3.3"
   },
