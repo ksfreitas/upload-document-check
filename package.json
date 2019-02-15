@@ -28,8 +28,12 @@
   "dependencies": {
     "jimp": "^0.6.0",
     "mammoth": "^1.4.7",
+    "node-xlsx": "^0.14.1",
     "pdf-parse": "^1.1.1",
-    "pngjs": "^3.3.3"
+    "pngjs": "^3.3.3",
+    "tmp": "0.0.33",
+    "word-extractor": "github:ksfreitas/node-word-extractor",
+    "xls-to-json": "^0.5.1"
   },
   "devDependencies": {
     "mocha": "^5.2.0"

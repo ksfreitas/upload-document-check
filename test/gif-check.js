@@ -1,9 +1,9 @@
 describe('GIF File test', function () {
-    const PngValidation = require('../lib/image-validation');
+    const GifValidation = require('../lib/image-validation');
 
     it('should return as valid GIF', (done) => {
         const filePath = __dirname + '/files/gif-valid.gif';
-        PngValidation.validImage(filePath).then(() => {
+        GifValidation.validImage(filePath).then(() => {
             done();
         }).catch((e) => {
             done(e);
@@ -11,7 +11,7 @@ describe('GIF File test', function () {
     });
     it('should return as invalid GIF', (done) => {
         const filePath = __dirname + '/files/gif-only-header.gif';
-        PngValidation.validImage(filePath).then(() => {
+        GifValidation.validImage(filePath).then(() => {
             done(new Error('Valid GIF.'));
         }).catch((e) => {
             done();
