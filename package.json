@@ -27,12 +27,16 @@
   "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
     "event-stream": "^3.3.4",
+    "extract-zip": "^1.6.7",
     "jimp": "^0.6.0",
     "mammoth": "^1.4.7",
+    "mmmagic": "^0.5.2",
     "node-xlsx": "^0.14.1",
     "pdf-parse": "^1.1.1",
     "pngjs": "^3.3.3",
     "ppt": "github:ksfreitas/js-ppt",
+    "pptx-compose": "^0.4.0",
+    "rimraf": "^2.6.3",
     "tmp": "0.0.33",
     "word-extractor": "github:ksfreitas/node-word-extractor",
     "xls-to-json": "^0.5.1"
