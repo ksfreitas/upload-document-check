@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
+    "event-stream": "^3.3.4",
     "jimp": "^0.6.0",
     "mammoth": "^1.4.7",
     "node-xlsx": "^0.14.1",
