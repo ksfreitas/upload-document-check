@@ -2,6 +2,7 @@
   <dictionary name="cassio">
     <words>
       <w>docx</w>
+      <w>pptx</w>
       <w>xlsx</w>
     </words>
   </dictionary>
