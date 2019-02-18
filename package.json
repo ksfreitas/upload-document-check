@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
+    "@fknop/node-unrar": "^1.1.0",
     "event-stream": "^3.3.4",
     "extract-zip": "^1.6.7",
     "jimp": "^0.6.0",
