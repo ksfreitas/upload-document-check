@@ -27,20 +27,20 @@
   "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
     "@fknop/node-unrar": "^1.1.0",
-    "event-stream": "^3.3.4",
+    "event-stream": "^3.3.5",
     "extract-zip": "^1.6.7",
-    "jimp": "^0.6.0",
-    "mammoth": "^1.4.7",
-    "mmmagic": "^0.5.2",
+    "jimp": "^0.6.4",
+    "mammoth": "^1.4.8",
+    "mmmagic": "^0.5.3",
     "node-xlsx": "^0.14.1",
     "pdf-parse": "^1.1.1",
-    "pngjs": "^3.3.3",
+    "pngjs": "^3.4.0",
     "ppt": "github:ksfreitas/js-ppt",
     "pptx-compose": "^0.4.0",
     "rimraf": "^2.6.3",
     "tmp": "0.0.33",
-    "word-extractor": "github:ksfreitas/node-word-extractor",
-    "xls-to-json": "^0.5.1"
+    "word-extractor": "^0.3.0",
+    "xls-to-json": "^0.5.2"
   },
   "devDependencies": {
     "mocha": "^5.2.0"
