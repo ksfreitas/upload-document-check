@@ -2,7 +2,7 @@
   <configuration default="false" name="NPM Test" type="js.build_tools.npm">
     <package-json value="$PROJECT_DIR$/package.json" />
     <command value="test" />
-    <node-interpreter value="project" />
+    <node-interpreter value="/usr/local/opt/node@12/bin/node" />
     <envs />
     <method v="2" />
   </configuration>
