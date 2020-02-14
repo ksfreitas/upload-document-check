@@ -1,6 +1,6 @@
 {
   "name": "upload-document-check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Open and parse some file types to ensure the content matches with the header",
   "main": "index.js",
   "scripts": {
