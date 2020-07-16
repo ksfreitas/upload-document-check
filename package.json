@@ -1,6 +1,6 @@
 {
   "name": "upload-document-check",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Open and parse some file types to ensure the content matches with the header",
   "main": "index.js",
   "scripts": {
@@ -27,9 +27,9 @@
   "homepage": "https://github.com/ksfreitas/upload-document-check#readme",
   "dependencies": {
     "event-stream": "^3.3.5",
-    "extract-zip": "^1.6.7",
-    "jimp": "^0.6.4",
-    "lodash": "^4.17.13",
+    "extract-zip": "^2.0.1",
+    "jimp": "^0.14.0",
+    "lodash": "^4.17.19",
     "mammoth": "^1.4.8",
     "mmmagic": "^0.5.3",
     "node-xlsx": "^0.14.1",
@@ -44,6 +44,6 @@
     "xls-to-json": "^0.5.2"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^8.0.1"
   }
 }
